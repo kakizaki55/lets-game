@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import FilmCard from '../Components/Film Card/FilmCard'
 import { getAllFlims } from '../lib/home'
 
 export default function Home() {
@@ -14,11 +15,24 @@ export default function Home() {
     fetchFilms()
   })
 
-  console.log('filmList', filmList)
-
-
 
   return (
-    <div>Home</div>
+  <>
+    <header style={styles.header}>Films</header>
+    <div style={styles.home}>
+      {filmList.map(film => <FilmCard film={film}/>)}
+    </div>
+  </>
   )
 }
+
+const styles = {
+  home: {
+    display: 'flex',
+    flexWrap: 'wrap'
+  },
+  header:{
+    fontSize: '3em'
+  }
+}
+

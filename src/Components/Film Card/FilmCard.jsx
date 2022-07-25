@@ -5,6 +5,10 @@ import { Card, Typography } from '@mui/material'
 export default function FilmCard({film}) {
   const {title, original_title, image, description} = film
 
+  const handleFilmSelect  = () => {
+    
+  }
+
   return (
     <>
       <Card>

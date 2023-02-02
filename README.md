@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-###⚠️⚠️⚠️⚠️⚠️ DEPRECATED!!! ⚠️⚠️⚠️⚠️
+# ⚠️⚠️⚠️⚠️⚠️ DEPRECATED!!! ⚠️⚠️⚠️⚠️
 
 https://github.com/tailosinc/tycho-resources/tree/main/packages/grafana
 

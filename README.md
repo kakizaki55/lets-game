@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+⚠️⚠️⚠️⚠️⚠️ DEPRECATED!!! ⚠️⚠️⚠️⚠️
+
+https://github.com/tailosinc/tycho-resources/tree/main/packages/grafana
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
